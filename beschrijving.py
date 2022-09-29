@@ -74,11 +74,11 @@ df2 = pd.concat([df2, df_data], axis=1).drop('weather', axis=1)
 
 
 
-st.title("Weather of the past five days, with 3 hour intervals")
+st.title("Weatherforecast for the coming five days, with 3 hour intervals")
 st.subheader("Hi!")
-st.text("Welkome in our app. Here's how the weather has been for the past")
-st.text("five days, in 8 different city's. The data has been acquired")
-st.text("through an API. This interactive app has multiple functions;")
+st.text("Welkome in our app. Here's a forecast of the weather")
+st.text("in 8 different city's. The data has been acquired through")
+st.text("an API. This interactive app has multiple functions;")
 st.text("try them!")
 
 df2['datetime']= pd.to_datetime(df2['datetime'], format='%Y-%m-%d:%H')
