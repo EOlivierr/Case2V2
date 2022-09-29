@@ -79,7 +79,7 @@ st.subheader("Hi!")
 st.text("Welkome in our app. Here's how the weather has been for the past")
 st.text("five days, in 8 different city's. The data has been acquired")
 st.text("through an API. This interactive app has multiple functions;")
-st.text("try them!')
+st.text("try them!")
 
 df2['datetime']= pd.to_datetime(df2['datetime'], format='%Y-%m-%d:%H')
 
