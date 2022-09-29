@@ -50,8 +50,6 @@ combo_list.append(Land("Stockholm, Zweden", 59.334591, 18.063240))
 
 for obj in combo_list:
   original_list.append(obj.land)
-
-st.sidebar.subheader('This is a subheader')
   
 #radio
 result = st.sidebar.radio('Select the city', original_list)
