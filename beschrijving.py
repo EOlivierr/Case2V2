@@ -52,8 +52,9 @@ st.markdown(html, unsafe_allow_html= True)
 url = "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/3hourly"
 
 headers = {
- 	"X-RapidAPI-Key": "19371bb78bmsha38002b17dbf6c7p198e30jsn6f6685e527ab",
- 	"X-RapidAPI-Host": "weatherbit-v1-mashape.p.rapidapi.com"}
+    'X-RapidAPI-Key': "52673d6accmsh11b5b0f95d28d76p11d535jsneb758f0c3037",
+    'X-RapidAPI-Host': "weatherapi-com.p.rapidapi.com"
+    }
 
 combo_list=[]
 original_list = []
